@@ -8,7 +8,10 @@ $('#emailModal').on('shown.bs.modal', function () {
             url: "https://virtualskin-mail.herokuapp.com/add",
             data: {email: email}
         }).done(function (msg) {
-            console.log(msg);
+            if (msg && msg.status)
+                toastr.success("Thanks, it was written in our hearts forever");
+            else
+                toastr.warning("Oh no, we lost your address");
         });
         $(modal).modal('hide');
     });
