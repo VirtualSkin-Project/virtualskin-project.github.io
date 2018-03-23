@@ -3,7 +3,13 @@ $('#emailModal').on('shown.bs.modal', function () {
         event.preventDefault();
         var modal = $(this).closest('.modal');
         var email = $('.modal-body #email').val();
-        console.log(email);
+        $.ajax({
+            method: "GET",
+            url: "https://virtualskin-mail.herokuapp.com/add",
+            data: { email: email }
+        }).done(function( msg ) {
+            alert( "Data Saved: " + msg[status] );
+        });
         $(modal).modal('hide');
     });
 });
