@@ -1,303 +1,220 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>VirtualSkin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The sensory solution for virtual reality">
     <meta name="google-site-verification" content="zvqTYYf2aWr4SzpX05LLTTBbXbK5tHgPcdPjzOskvpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Codeply">
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/animate.min.css" />
-    <link rel="stylesheet" href="./css/ionicons.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/solid.css" integrity="sha384-HTDlLIcgXajNzMJv5hiW5s2fwegQng6Hi+fN6t5VAcwO/9qbg2YEANIyKBlqLsiT"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/fontawesome.css" integrity="sha384-8WwquHbb2jqa7gKWSoAwbJBV2Q+/rQRss9UXL5wlvXOZfSodONmVnifo/+5xJIWX"
-        crossorigin="anonymous">
+
+    <title>Virtual Skin</title>
+
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/vs_favicon.png">
+
+    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!-- Custom styles for our template -->
+    <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Toastr -->
+    <link href="assets/css/toastr.min.css" rel="stylesheet"/>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body>
-    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#first">
-                    <i class="ion-ios-analytics-outline"></i> VirtualSkin</a>
-            </div>
-            <div class="navbar-collapse collapse" id="bs-navbar">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a class="page-scroll" href="#one">Intro</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#two">Features</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#three">F.A.Q</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About</a>
-                    </li>
-                </ul>
-            </div>
+<body class="home">
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top headroom">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- Button for smallest screens -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/vs_logo.png" alt="Virtual Skin"> Virtual
+                Skin</a>
         </div>
-    </nav>
-    <header id="first">
-        <div class="header-content">
-            <div class="inner">
-                <h1 class="cursive">Virtual Skin</h1>
-                <h4>Feel the virtual</h4>
-                <hr>
-                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp;
-                <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
-            </div>
-        </div>
-        <video controls muted autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg"
-            id="video-background">
-            <source src="./assets/video/virtualskin-interview-v0.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-    </header>
-    <section class="bg-primary" id="one">
-        <div class="container">
-            <div class="row">
-                <div class="text-center">
-                    <h2 class="margin-top-0 text-primary">Ever felt that virtual reality lacked... something?</h2>
-                    <br>
-                    <p class="text-faded">
-                        Discover our modular solution to add depth to how you feel the vitual reality Our suit is easy to install and customizable.
-                        It features by default vibrators on the whole torso to increase the immersion of the user. You will
-                        be able to plug in easily additions to the suit, like pants, gloves, and more !
-                    </p>
-                    <a href="#alertModal" class="btn btn-default btn-xl page-scroll" data-toggle="modal" data-target="#alertModal">
-                        Learn More
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="two">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="margin-top-0 text-primary">Our features</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <!-- <i class="icon-lg ion-ios-flask-outline wow fadeIn" data-wow-delay=".3s"></i> -->
-                        <i class=" icon-lg fas fa-cog wow fadeIn" data-wow-delay=".2s"></i>
-                        <h3>Modular</h3>
-                        <p class="text-muted">Build the suit that matches your expectations</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <i class="icon-lg fas fa-wifi wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Wireless Usage</h3>
-                        <p class="text-muted">Free your user from tangles</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <div class="feature">
-                        <i class="icon-lg fas fa-smile wow fadeIn" data-wow-delay=".4s"></i>
-                        <h3>Game engine integration</h3>
-                        <p class="text-muted">Currently optimized for Unreal Engine and Unity</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="container-fluid bg-primary" id="three">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<!-- /.navbar -->
+
+<!-- Header -->
+<header id="head">
+    <div class="container">
         <div class="row">
-            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-                <h2 class="text-center text-primary">F.A.Q</h2>
-                <hr>
+            <h1 class="lead">VIRTUAL SKIN</h1>
+            <p class="tagline">Feel the virtual</p>
+            <p>
+                <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#emailModal">REGISTER</a>
+            </p>
+        </div>
+    </div>
+</header>
+<!-- /Header -->
 
-                <div class="media wow fadeIn">
-                    <h3>For who is VirtualSkin?</h3>
-                    <div class="media-left">
-                        <a href="#alertModal" data-toggle="modal" data-target="#alertModal"></a>
-                    </div>
-                    <div class="media-body media-middle">
-                        <p>Our solution is targeted for developper that want to enhance their game to the next level and provide
-                            the best experience possible</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="media wow fadeInRight">
-                    <h3>How can I use your product?</h3>
-                    <div class="media-body media-middle">
-                        <p>Simply to put on the shirt and ready to go.</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="media wow fadeIn">
-                    <h3>When will your solution be available ?</h3>
-                    <div class="media-body media-middle">
-                        <p>The solution is on ALPHA, but ready to use. Contact us to ask for a demo!</p>
-                    </div>
-                </div>
-                <hr>
-                <div class="media wow fadeInRight">
-                    <h3>With which VR headset can I use your system ?</h3>
-                    <div class="media-body media-middle">
-                        <p>The system doesn't rely on any specifics headset to work but rather which gaming engine you are using</p>
-                    </div>
+<!-- Intro -->
+<div class="container text-center">
+    <br> <br>
+    <h2 class="thin">Discover our modular solution to add depth to how you feel the vitual reality</h2>
+    <p class="text-muted">
+        Our suit is easy to install and customizable. It features by default vibrators on the whole torso to increase
+        the immersion of the user.<br>
+        You will be able to plug in easily additions to the suit, like pants, gloves, and more !
+    </p>
+</div>
+<!-- /Intro-->
+
+<!-- Highlights - jumbotron -->
+<div class="jumbotron top-space">
+    <div class="container">
+
+        <h3 class="text-center thin">What can our solution do ?</h3>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 highlight">
+                <div class="h-caption"><h4><i class="fa fa-cogs fa-5"></i>Modular</h4></div>
+                <div class="h-body text-center">
                 </div>
             </div>
+            <div class="col-md-3 col-sm-6 highlight">
+                <div class="h-caption"><h4><i class="fa fa-flash fa-5"></i>Wireless usage</h4></div>
+                <div class="h-body text-center">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 highlight">
+                <div class="h-caption"><h4><i class="fa fa-heart fa-5"></i>Easy to use</h4></div>
+                <div class="h-body text-center">
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 highlight">
+                <div class="h-caption"><h4><i class="fa fa-smile-o fa-5"></i>Compatible with most engines</h4></div>
+                <div class="h-body text-center">
+                </div>
+            </div>
+        </div> <!-- /row  -->
+
+    </div>
+</div>
+<!-- /Highlights -->
+
+<!-- container -->
+<div class="container">
+    <h2 class="text-center top-space">Frequently Asked Questions</h2>
+    <br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>How can I use your product ?</h3>
+            <p>Simply to put on the shirt and ready to go.</p>
         </div>
-    </section>
-    <footer id="footer">
-        <div class="container-fluid">
+        <div class="col-sm-6">
+            <h3>What games are available with your solution ?</h3>
+            <p>Our products are available on Unity and Unreal Engine.</p>
+        </div>
+    </div> <!-- /row -->
+
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>When will your solution be available ?</h3>
+            <p>The solution is on ALPHA, but ready to use</p>
+        </div>
+        <div class="col-sm-6">
+            <h3>With which VR headset can I use your system ?</h3>
+            <p>The system doesn't rely on any specifics headset to work</p>
+        </div>
+    </div> <!-- /row -->
+
+</div>    <!-- /container -->
+
+<!-- pop in -->
+<div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="emailModalLabel">Give me your email</h4>
+            </div>
+            <div class="modal-body">
+                <form id="emailForm" action="">
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">@</span>
+                        <input type="email" class="form-control" placeholder="Darth.Vader@dark-side.com" id="email" name="email" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" data-send="modal">Send email</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> <!-- /pop in -->
+
+<footer id="footer" class="top-space">
+    <div class="footer1">
+        <div class="container">
             <div class="row">
-                <div class="col-xs-6 col-sm-3 column">
-                    <h4>Information</h4>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="" style="color:  #ccc !important;">Developers</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-3 column">
-                    <h4>About</h4>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a style="color:  #ccc !important;" href="mailto:virtualskinproject@gmail.com">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-3 column">
-                    <h4>Stay Posted</h4>
-                    <form>
-                        <div class="form-group">
-                            <button class="btn btn-primary" data-toggle="modal" data-target="#alertModal" type="button">Subscribe for updates</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-xs-12 col-sm-3 text-right">
-                    <h4>Follow us</h4>
-                    <ul class="list-inline">
-                        <li>
-                            <a target="_blank" rel="nofollow" href="https://twitter.com/VirtualSkinVR" title="Twitter">
-                                <i class="icon-lg ion-social-twitter-outline" style="font-size: 40px !important;"></i>
-                            </a>&nbsp;</li>
-                        <li>
-                    </ul>
-                </div>
-            </div>
-            <br/>
-            <div class="col-xs-12 col-sm-6 text-right">
-                <span class="pull-right text-muted small"> VirtualSkin-VR ©2018 Company</span>
-            </div>
-        </div>
-    </footer>
-    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <img src="" id="galleryImage" class="img-responsive" />
-                    <p>
-                        <br/>
-                        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close
-                            <i class="ion-android-close"></i>
-                        </button>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <h2 class="text-center">Virtual Skin</h2>
-                    <h5 class="text-center">
-                        The haptic feedback solution that your game needs
-                    </h5>
-                    <p class="text-justify">
-                        As developpers but also as gamers, we at VirtualSkin firmly believe that virtual reality but also gaming as a whole would
-                        benefits from haptics feedback. Our goal is to close the gap between the virtual and the real.
-                    </p>
-                    <p class="text-center">
-                        <br/>
-                        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK </button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-10 text-center">
-                                <div class="col-md-4 col-md-offset-4">
-                                    <h2 class="">Stay in Touch</h2>
-                                    <hr class="">
-                                    <h7 class="">We love feedback. Fill out the form below and we'll get back to you as soon as possible.</h7>
-                                </div>
-                            </div>
-                            <div class="col-lg-10 text-center">
-                                <form class="contact-form row">
-                                    <div class="col-md-4">
-                                        <label></label>
-                                        <input type="text" class="form-control" placeholder="Name">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label></label>
-                                        <input type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                    <div class="col-md-4">
-                                        <label></label>
-                                        <input type="text" class="form-control" placeholder="Phone">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label></label>
-                                        <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
-                                    </div>
-                                    <div class="col-md-4 col-md-offset-4">
-                                        <label></label>
-                                        <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send
-                                            <i class="ion-android-arrow-forward"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                <div class="col-md-6 widget">
+                    <h3 class="widget-title">Contact</h3>
+                    <div class="widget-body">
+                        <a href="mailto:virtualskinproject@gmail.com">virtualskinproject@gmail.com</a>
                     </div>
-
                 </div>
-            </div>
+                <div class="col-md-6 widget">
+                    <h3 class="widget-title">Follow us</h3>
+                    <div class="widget-body">
+                        <p class="follow-me-icons">
+                            <a href="https://twitter.com/VirtualSkinVR"><i class="fa fa-twitter fa-2"></i></a>
+                            <a href="https://www.facebook.com/VirtualSkin-1711545248908781"><i class="fa fa-facebook fa-2"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- /row of widgets -->
         </div>
     </div>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116327891-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    <div class="footer2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 widget">
+                    <div class="widget-body">
+                        <p class="simplenav">
+                            <a href="#">Home</a> |
+                            <a href="about.html">About</a>
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- /row of widgets -->
+        </div>
+    </div>
+</footer>
 
-        gtag('config', 'UA-116327891-1');
-    </script>
-    <!--scripts loaded here -->
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/jquery.easing.min.js"></script>
-    <script src="./js/wow.js"></script>
-    <script src="./js/scripts.js"></script>
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116327891-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116327891-1');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/toastr.min.js"></script>
+<script src="assets/js/headroom.min.js"></script>
+<script src="assets/js/jQuery.headroom.min.js"></script>
+<script src="assets/js/template.js"></script>
+<script src="assets/js/index.js"></script>
 </body>
-
 </html>
