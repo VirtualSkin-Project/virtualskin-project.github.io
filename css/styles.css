@@ -237,8 +237,8 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    background-color: #333;
+    /*background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -267,11 +267,11 @@ header .header-content .inner p {
 }
 
 #video-background {
-  right: 0; 
-  bottom: 0;
-  max-width: 100%;
-  width: 100%; 
-  z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 #video-background.collapsing {
